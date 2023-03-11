@@ -1,0 +1,520 @@
+/********************************/
+/* BELOW 1200px (Smaller desktops) */
+/********************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px = 56.25 = 56.25% */
+    font-size: 56.25%;
+  }
+
+  .contact-us-head {
+    font-size: 7.7rem;
+  }
+
+  .contact-us-cards {
+    padding: 8.802rem 8.8rem 10.802rem;
+  }
+}
+
+/**************************/
+/* BELOW 1067px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 1067px) {
+  .career-team-container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+
+  .team-text-box-container {
+    grid-row: 1;
+    padding: 100px 0px;
+    /* height: 100%; */
+  }
+
+  .team-heading {
+    font-size: 32px;
+  }
+
+  .team-text {
+    font-size: 14px;
+  }
+
+  .team-textbox {
+    gap: 26px;
+  }
+
+  .container-1-heading {
+    font-size: 40px;
+  }
+
+  .container-1-text {
+    font-size: 14px;
+  }
+
+  .container-1-join-img {
+    width: 90%;
+  }
+
+  .container-2-heading {
+    font-size: 28px;
+  }
+
+  .container-2-text {
+    font-size: 14px;
+  }
+
+  .container-2-culture-img {
+    width: 90%;
+  }
+
+  .career-container-2 {
+    padding: 0px 60px 120px 60px;
+    /* gap: 10rem; */
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  .grid-end {
+    justify-self: end;
+  }
+}
+
+/**************************/
+/* BELOW 951px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 951px) {
+  .container-text-1 {
+    padding: 0;
+  }
+
+  .career-container-1 {
+    gap: 49px;
+  }
+}
+
+/**************************/
+/* BELOW 900px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 56.25em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .form-section {
+    padding: 0;
+  }
+
+  header {
+    padding: 10px 7%;
+  }
+
+  header label {
+    display: initial;
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+
+  header .navbar ul li {
+    width: 100%;
+  }
+
+  header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+  }
+
+  header .navbar ul li ul li {
+    background: #eee;
+  }
+
+  header .navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
+
+  .container-1-heading {
+    font-size: 34px;
+  }
+
+  .container-1-text {
+    font-size: 12px;
+  }
+
+  .container-2-heading {
+    font-size: 26px;
+  }
+
+  .container-2-text {
+    font-size: 12px;
+  }
+
+  .team-heading {
+    font-size: 30px;
+  }
+
+  .team-text {
+    font-size: 12px;
+  }
+
+  .team-text-box-container {
+    padding: 75px 0px;
+  }
+
+  .container-1-heading {
+    line-height: 42px;
+  }
+
+  .container-text-1 {
+    gap: 17.01px;
+  }
+
+  .container-text-2 {
+    gap: 17.01px;
+  }
+
+  .logo2 {
+    width: 25%;
+    height: 25%;
+  }
+}
+
+/********************************/
+/* BELOW 800px (landscape Tablets) */
+/********************************/
+
+@media (max-width: 800px) {
+  .career-container-1 {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 59px 161px;
+  }
+
+  .container-1-join-img {
+    width: 80%;
+  }
+
+  .container-1-img {
+    justify-content: center;
+    grid-row: 1;
+  }
+
+  .career-container-1 {
+    justify-items: center;
+    padding: 50px 60px 120px 60px;
+  }
+
+  .career-container-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .container-2-culture-img {
+    width: 60%;
+  }
+
+  .container-text-2 {
+    padding: 0px 0px;
+  }
+
+  .container-2-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .career-container-2 {
+    gap: 49px;
+  }
+
+  .changing-row {
+    grid-row: 1;
+  }
+}
+/********************************/
+/* BELOW 737px (landscape Tablets) */
+/********************************/
+
+@media (max-width: 46.0625em) {
+  .contact-us-cards {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5.802rem 20.8rem 10.802rem;
+  }
+}
+
+/********************************/
+/* BELOW 700px (landscape Tablets) */
+/********************************/
+
+@media (max-width: 43.75em) {
+  .footer-container {
+    grid-template-columns: 2fr auto auto;
+  }
+
+  .section-img {
+    width: 70%;
+    justify-self: center;
+  }
+
+  .text-input-box {
+    gap: 3.8rem;
+  }
+
+  .text-input-box h1 {
+    padding: 0 21.8rem;
+    font-size: 5rem;
+  }
+
+  .text-and-icons {
+    width: 60%;
+    flex-direction: column;
+    justify-self: center;
+    position: relative;
+    gap: 1rem;
+  }
+
+  .text-input-box {
+    display: grid;
+  }
+
+  .line {
+    width: 20%;
+  }
+
+  .line hr {
+    display: none;
+    /* transform: rotate(90deg);
+    width: 3px;
+    height: 70px;
+    background-color: #a1a1a1; */
+  }
+
+  /* .line1 {
+    position: absolute;
+    top: 100px;
+  }
+
+  .line2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  } */
+
+  .col-1-to-2 {
+    grid-column: 1 / -1;
+  }
+
+  .address-content p {
+    line-height: 20px;
+    /* letter-spacing: 50px; */
+  }
+
+  .address-content address {
+    line-height: 20px;
+  }
+
+  /* MOBILE NAVIGATION
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .down-arrow-icon {
+    width: 20px;
+    height: 15px;
+  } */
+
+  .get-in-touch-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-container {
+    grid-template-columns: 2fr auto auto;
+  }
+
+  .container-1-heading {
+    font-size: 30px;
+  }
+
+  .container-2-heading {
+    font-size: 22px;
+  }
+
+  .team-heading {
+    font-size: 28px;
+  }
+}
+
+/********************************/
+/* BELOW 563px (landscape Tablets) */
+/********************************/
+
+@media (max-width: 35.1875em) {
+  .contact-us-cards {
+    padding: 5.802rem 14rem 10.802rem;
+  }
+}
+
+/********************************/
+/* BELOW 500px (landscape Tablets) */
+/********************************/
+
+@media (max-width: 31.25em) {
+  /* 7px / 16px = 43.75 = 43.75% */
+  html {
+    font-size: 43.75%;
+  }
+
+  .footer-container {
+    grid-template-columns: 2fr auto;
+    /* gap: 3.1rem; */
+  }
+
+  .icon-big {
+    height: 24px;
+  }
+
+  .address-content p {
+    line-height: 20px;
+    /* letter-spacing: 50px; */
+  }
+
+  .address-content address {
+    line-height: 20px;
+  }
+
+  /* .row-1-col-2 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .row-2-col-1 {
+    grid-column: 1;
+    grid-row: 2;
+  } */
+
+  .col-1-to-2 {
+    grid-column: 1 / -1;
+  }
+
+  .get-in-touch-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .submit-button {
+    justify-content: center;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    /* gap: 3.1rem; */
+  }
+
+  .career-container-1 {
+    justify-items: center;
+    padding: 50px 12px 120px 12px;
+  }
+
+  .container-2-culture-img {
+    width: 80%;
+  }
+
+  .career-container-2 {
+    padding: 0px 12px 120px 12px;
+    /* gap: 10rem; */
+  }
+
+  .team-textbox {
+    padding: 0px 12px;
+  }
+
+  .team-text-box-container {
+    padding: 48px 0px;
+  }
+
+  .team-heading {
+    font-size: 22px;
+  }
+
+  .team-textbox {
+    gap: 17.01px;
+  }
+
+  .team-heading {
+    line-height: 33px;
+  }
+}
+
+/********************************/
+/* BELOW 438px (landscape Tablets) */
+/********************************/
+
+@media (max-width: 27.375em) {
+  .contact-us-cards {
+    padding: 5.802rem 20.8rem 10.802rem;
+    padding: 5.802rem 6rem 10.802rem;
+  }
+}
+
+@media (max-width: 393px) {
+  .form {
+    /* align-self: end; */
+    justify-self: start;
+    width: 75%;
+  }
+
+  .online-support-img {
+    justify-self: start;
+  }
+
+  .submit-button {
+    justify-content: start;
+  }
+}
+
+@media (max-width: 18.75em) {
+  /* 6px / 16px = 37.5 = 37.5% */
+  html {
+    font-size: 31.25%;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .row-1-col-2 {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .row-2-col-1 {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .contact-us-card-desc {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 22.25em) {
+  .contact-us-head {
+    font-size: 6.7rem;
+  }
+}

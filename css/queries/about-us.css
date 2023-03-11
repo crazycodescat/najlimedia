@@ -1,0 +1,727 @@
+/********************************/
+/* BELOW 1200px (desktops) */
+/********************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px = 56.25 = 56.25% */
+    font-size: 56.25%;
+  }
+
+  .who-we-are-container {
+    gap: 2.5rem;
+  }
+
+  .left-box {
+    padding: 6.9rem 4.7rem;
+  }
+
+  .right-box {
+    padding: 6.9rem 4.7rem;
+  }
+
+  .why-choose-us-sec {
+    gap: 2.5rem;
+  }
+
+  .top-agency-sec {
+    gap: 2.5rem;
+  }
+
+  .leadership-sec {
+    gap: 2.5rem;
+  }
+
+  .footer-column {
+    padding: 0;
+  }
+}
+
+/********************************/
+/* BELOW 1100px (medium desktops) */
+/********************************/
+
+@media (max-width: 68.75em) {
+  .what-we-do-sec {
+    gap: 2.5rem;
+  }
+}
+
+/********************************/
+/* BELOW 1000px (small desktops) */
+/********************************/
+
+@media (max-width: 62.5em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .who-we-are-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 22.9rem;
+    gap: 6.5rem;
+  }
+
+  .who-we-are-img {
+    grid-row: 1;
+  }
+
+  .our-mission-container {
+    grid-template-columns: repeat(1, 1fr);
+    /* padding: 0 22.9rem; */
+  }
+
+  .left-box {
+    padding: 6.9rem 22.9rem;
+  }
+
+  .right-box {
+    padding: 6.9rem 22.9rem;
+  }
+
+  .what-we-do-sec {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 12.2rem 22.9rem;
+    gap: 6.5rem;
+  }
+
+  .what-we-do-text-box {
+    grid-row: 2;
+    padding: 0;
+  }
+
+  .why-choose-us-sec {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 12.2rem 22.9rem;
+    gap: 6.5rem;
+  }
+
+  .why-chooose-us-text-box {
+    padding: 0;
+  }
+
+  .why-choose-us-img {
+    grid-row: 1;
+  }
+
+  .leadership-sec {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 12.2rem 22.9rem;
+    gap: 6.5rem;
+  }
+
+  .leadership-text-box {
+    padding: 0;
+  }
+
+  .who-we-are-box-head {
+    font-size: 3.8rem;
+  }
+
+  .left-box-heading {
+    font-size: 3.2rem;
+  }
+
+  .right-box-heading {
+    font-size: 3.2rem;
+  }
+
+  .what-we-do-head {
+    font-size: 3.2rem;
+  }
+
+  .guarantee-of-success-head {
+    font-size: 3.2rem;
+  }
+
+  .why-choose-us-head {
+    font-size: 3.2rem;
+  }
+
+  .top-agency-head {
+    font-size: 3.2rem;
+  }
+
+  .leadership-head {
+    font-size: 3.2rem;
+  }
+
+  .hero-about-us-text-container {
+    height: 8.7rem;
+  }
+
+  .hero-about-us-text {
+    font-size: 5.8rem;
+  }
+
+  .form-section {
+    padding: 0;
+  }
+
+  header {
+    padding: 10px 7%;
+  }
+
+  header label {
+    display: initial;
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+
+  header .navbar ul li {
+    width: 100%;
+  }
+
+  header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+  }
+
+  header .navbar ul li ul li {
+    background: #eee;
+  }
+
+  header .navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
+
+  .logo2 {
+    width: 25%;
+    height: 25%;
+  }
+}
+
+@media (max-width: 54.875em) {
+  .top-agency-sec {
+    grid-template-columns: 1fr;
+    padding: 12.2rem 22.9rem;
+  }
+
+  .top-agency-text-box {
+    padding: 0;
+  }
+}
+
+@media (max-width: 53.125em) {
+  .guarantee-of-success-sec-container {
+    gap: 0;
+  }
+
+  .getintouch h1 {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 50em) {
+  .who-we-are-container {
+    padding: 0 20.9rem;
+  }
+
+  .left-box {
+    padding: 6.9rem 20.9rem;
+  }
+
+  .right-box {
+    padding: 6.9rem 20.9rem;
+  }
+
+  .what-we-do-sec {
+    padding: 12.2rem 20.9rem;
+  }
+
+  .why-choose-us-sec {
+    padding: 12.2rem 20.9rem;
+  }
+
+  .top-agency-sec {
+    padding: 12.2rem 20.9rem;
+  }
+
+  .leadership-sec {
+    padding: 12.2rem 20.9rem;
+  }
+
+  .hero-about-us-text-container {
+    height: 6.7rem;
+  }
+
+  .hero-about-us-text {
+    font-size: 5.3rem;
+  }
+}
+
+@media (max-width: 46.875em) {
+  .guarantee-of-success-sec-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 12.2rem 20.9rem;
+  }
+
+  .guarantee-of-success-img {
+    width: 70%;
+  }
+
+  .gurantee-of-success-text-box {
+    padding: 0;
+  }
+
+  .our-team-sec-container {
+    gap: 0;
+  }
+
+  .our-team-sec-img {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 43.75em) {
+  .who-we-are-container {
+    padding: 0 12.9rem;
+  }
+
+  .left-box {
+    padding: 6.9rem 12.9rem;
+  }
+
+  .right-box {
+    padding: 6.9rem 12.9rem;
+  }
+
+  .what-we-do-sec {
+    padding: 12.2rem 12.9rem;
+  }
+
+  .guarantee-of-success-sec-container {
+    padding: 12.2rem 12.9rem;
+  }
+
+  .why-choose-us-sec {
+    padding: 12.2rem 12.9rem;
+  }
+
+  .top-agency-sec {
+    padding: 12.2rem 12.9rem;
+  }
+
+  .leadership-sec {
+    padding: 12.2rem 12.9rem;
+  }
+
+  .our-team-sec-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 12.2rem 12.9rem;
+  }
+
+  .our-team-sec-img {
+    justify-self: center;
+  }
+
+  .our-team-sec-container {
+    gap: 6.5rem;
+  }
+
+  /* .navbar {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    justify-content: center;
+    gap: 4.2rem; */
+  /* width: 100%; */
+  /* } */
+
+  /* .btn-mobile-nav {
+    display: block;
+  } */
+
+  .footer-container {
+    grid-template-columns: 2fr auto auto;
+  }
+
+  .get-in-touch-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 31.25em) {
+  .who-we-are-container {
+    padding: 0 5.6rem;
+  }
+
+  .left-box {
+    padding: 6.9rem 5.6rem;
+  }
+
+  .right-box {
+    padding: 6.9rem 5.6rem;
+  }
+
+  .our-team-sec-container {
+    padding: 12.2rem 5.6rem;
+  }
+
+  .what-we-do-sec {
+    padding: 12.2rem 5.6rem;
+  }
+
+  .guarantee-of-success-sec-container {
+    padding: 12.2rem 5.6rem;
+  }
+
+  .why-choose-us-sec {
+    padding: 12.2rem 5.6rem;
+  }
+
+  .top-agency-sec {
+    padding: 12.2rem 5.6rem;
+  }
+
+  .leadership-sec {
+    padding: 12.2rem 5.6rem;
+  }
+
+  .hero-about-us-text {
+    font-size: 3.6rem;
+  }
+
+  .hero-about-us-text-container {
+    height: 5rem;
+  }
+
+  .get-in-touch-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .getintouch {
+    font-size: 3.1rem;
+  }
+
+  .getintouch h1 {
+    font-size: 3rem;
+  }
+
+  .get-in-touch-section {
+    margin: 1rem auto;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    /* gap: 3.1rem; */
+  }
+
+  .header {
+    height: 67.19px;
+  }
+
+  .container {
+    margin: 0 33.6px;
+  }
+
+  .logo {
+    /* height: 36.39px; */
+  }
+
+  .icon-mobile-nav {
+    width: 29.39px;
+    height: 29.39px;
+  }
+
+  .who-we-are-box-head {
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+  }
+
+  .who-we-are-text-box {
+    gap: 0.631rem;
+  }
+
+  .left-box-heading {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .right-box-heading {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .left-box {
+    gap: 5.3rem;
+  }
+
+  .right-box {
+    gap: 5.3rem;
+  }
+
+  .our-team-heading {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .our-team-text-box {
+    gap: 0.631rem;
+  }
+
+  .what-we-do-head {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .what-we-do-text-box {
+    gap: 0.631rem;
+  }
+
+  .guarantee-of-success-head {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+    /* line-height: ; */
+  }
+
+  .gurantee-of-success-text-box {
+    gap: 0.631rem;
+  }
+
+  .why-choose-us-head {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .why-chooose-us-text-box {
+    gap: 0.631rem;
+  }
+
+  .top-agency-head {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .top-agency-text-box {
+    gap: 0.631rem;
+  }
+
+  .leadership-head {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .leadership-text-box {
+    gap: 0.631rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .who-we-are-container {
+    padding: 0 2.2rem;
+  }
+
+  .left-box {
+    padding: 6.9rem 2.2rem;
+  }
+
+  .right-box {
+    padding: 6.9rem 2.2rem;
+  }
+
+  .our-team-sec-container {
+    padding: 12.2rem 2.2rem;
+  }
+
+  .what-we-do-sec {
+    padding: 12.2rem 2.2rem;
+  }
+
+  .guarantee-of-success-sec-container {
+    padding: 12.2rem 2.2rem;
+  }
+
+  .why-choose-us-sec {
+    padding: 12.2rem 2.2rem;
+  }
+
+  .top-agency-sec {
+    padding: 12.2rem 2.2rem;
+  }
+
+  .leadership-sec {
+    padding: 12.2rem 2.2rem;
+  }
+
+  .getintouch h1 {
+    margin: 0 3.4rem;
+  }
+
+  .getintouch h1 {
+    font-size: 2.4rem;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .after-logo-text {
+    font-size: 1rem;
+  }
+
+  .row-1-col-2 {
+    grid-row: 2;
+  }
+
+  .row-2-col-1 {
+    grid-row: 4;
+  }
+
+  .copyright {
+    padding: 6.4rem 1.6rem;
+    font-size: 1rem;
+  }
+
+  .copyright p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 393px) {
+  .form {
+    /* align-self: end; */
+    justify-self: start;
+    width: 75%;
+  }
+
+  .online-support-img {
+    justify-self: start;
+  }
+
+  .submit-button {
+    justify-content: start;
+  }
+}
+
+@media (max-width: 18.75em) {
+  .header {
+    height: 6rem;
+  }
+
+  .container {
+    margin: 0 24px;
+  }
+
+  .logo {
+    height: 26px;
+  }
+
+  .icon-mobile-nav {
+    width: 21px;
+    height: 21px;
+  }
+
+  .who-we-are-box-head {
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+  }
+
+  .who-we-are-text-box {
+    gap: 0.631rem;
+  }
+
+  .left-box-heading {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .right-box-heading {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .left-box {
+    gap: 5.3rem;
+  }
+
+  .right-box {
+    gap: 5.3rem;
+  }
+
+  .our-team-heading {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .our-team-text-box {
+    gap: 0.631rem;
+  }
+
+  .what-we-do-head {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .what-we-do-text-box {
+    gap: 0.631rem;
+  }
+
+  .guarantee-of-success-head {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+    /* line-height: ; */
+  }
+
+  .gurantee-of-success-text-box {
+    gap: 0.631rem;
+  }
+
+  .why-choose-us-head {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .why-chooose-us-text-box {
+    gap: 0.631rem;
+  }
+
+  .top-agency-head {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .top-agency-text-box {
+    gap: 0.631rem;
+  }
+
+  .leadership-head {
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+  }
+
+  .leadership-text-box {
+    gap: 0.631rem;
+  }
+}
